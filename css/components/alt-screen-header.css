@@ -1,8 +1,8 @@
 .alt-header {
-  display: flex;
+  padding: var(--horizontal-space);
   margin-top: 40px;
   margin-bottom: 15px;
-  padding: var(--horizontal-space);
+  display: flex;
   align-items: center;
   justify-content: center;
 }
@@ -16,15 +16,15 @@
   font-weight: 600;
 }
 
-.alt-header__column :first-child {
+.alt-header__column:first-child {
   margin-right: auto;
 }
 
-.alt-header__column :nth-child(2) {
+.alt-header__column:nth-child(2) {
   text-align: center;
 }
 
-.alt-header__column :last-child {
+.alt-header__column:last-child {
   margin-left: auto;
   display: flex;
   justify-content: flex-end;
@@ -33,5 +33,3 @@
 .alt-header__column span :last-child {
   margin-left: 20px;
 }
-
-# 6-28강 및 29강을 다시 들어보자
