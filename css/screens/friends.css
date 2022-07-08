@@ -54,7 +54,7 @@
   font-family: futura midium;
   color: aliceblue;
   animation: hideSplashScreen 0.4s ease-in-out forwards;
-  animation-delay: 0.5s;
+  animation-delay: 1s;
 }
 
 #splash-message {
