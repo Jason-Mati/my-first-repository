@@ -61,6 +61,10 @@
   margin-bottom: 150px;
 }
 
+#splash-span {
+  font-size: medium;
+}
+
 #splash-img {
   height: 360px;
   width: 300px;
