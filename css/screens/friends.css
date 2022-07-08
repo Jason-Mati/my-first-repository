@@ -1,7 +1,7 @@
 #friends-display-link {
   text-align: center;
   display: block;
-  background-color: #fafafa;
+  background-color: #a1dbb3;
   padding: 15px 0px;
   font-size: 18px;
   margin-bottom: 10px;
@@ -20,6 +20,7 @@
   margin-top: 25px;
   border-top: var(--main-border);
   padding-top: 15px;
+  margin-bottom: 50px;
 }
 
 .friends-screen__channel-header {
@@ -40,15 +41,27 @@
 }
 
 #splash-screen {
-  background-color: var(--yellow);
+  background-color: rgb(14, 119, 19);
   position: absolute;
-  height: 100vh;
+  height: 120vh;
   width: 100vw;
   top: 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 128px;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: futura midium;
+  color: aliceblue;
   animation: hideSplashScreen 0.4s ease-in-out forwards;
-  animation-delay: 1s;
+  animation-delay: 0.5s;
+}
+
+#splash-message {
+  margin-bottom: 150px;
+}
+
+.kokni-img {
+  height: 20px;
+  width: 20px;
 }

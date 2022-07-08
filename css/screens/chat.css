@@ -1,5 +1,5 @@
 #chat-screen {
-  background-color: #abc1d1;
+  background-color: rgb(209, 235, 202);
   height: 500vh;
 }
 
@@ -8,7 +8,7 @@
   top: 0;
   position: fixed;
   width: 100%;
-  background-color: #abc1d1;
+  background-color: rgb(209, 235, 202);
   box-sizing: border-box;
 }
 
@@ -43,8 +43,9 @@
 .chat__timestamp {
   color: white;
   background-color: #92a4b2;
-  padding: 15px;
-  border-radius: 25px;
+  padding: 10px;
+  font-size: small;
+  border-radius: 10px;
   margin-bottom: 25px;
 }
 
