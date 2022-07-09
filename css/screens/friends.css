@@ -66,6 +66,9 @@
   justify-content: center;
   align-items: center;
   font-size: medium;
+  color: black;
+  position: relative;
+  z-index: -1;
 }
 
 #splash-img {
